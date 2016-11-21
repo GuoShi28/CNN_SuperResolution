@@ -10,3 +10,7 @@ Var data:17838
     plus: GPU support
     Change3:
     plus: Batch support ---> x (H x W x D x N) batch:20
+    Change4:
+    change model: 
+        old model: $\sum \bar{k_g}\phi(k_g \cdot g) + \sum \bar{k_d}\phi(k_d \cdot d)$
+        new model: $\sum \bar{k_g}\phi(k_g \cdot g + k_d \cdot d)$
